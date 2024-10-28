@@ -29,7 +29,7 @@ export const SignUp: FC = (): JSX.Element => {
             marginBottom: 40,
           }}
         >
-          Sign up
+          انشاء حساب
         </h1>
         <custom.InputField
           label='name'

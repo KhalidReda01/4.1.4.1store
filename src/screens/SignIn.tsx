@@ -28,13 +28,13 @@ export const SignIn: React.FC = () => {
           marginBottom: 14,
         }}
       >
-        Welcome back!
+        هنا عاصمة الرياضة
       </h1>
       <p
         style={{
           margin: 0,
           color: theme.colors.textColor,
-          fontSize: 16,
+          fontSize: 22,
           lineHeight: 1.6,
           textAlign: 'center',
           marginTop: 0,
@@ -42,14 +42,14 @@ export const SignIn: React.FC = () => {
           ...theme.fonts.Mulish_400Regular,
         }}
       >
-        Sign in to continue
+        سجل دخولك
       </p>
       <div>
         <custom.InputField
           label='email'
           icon={<svg.InputCheckSvg />}
           containerStyle={{marginBottom: 20}}
-          placeholder='zenithsneaks@mail.com'
+          placeholder='1.4.1.4@mail.com'
         />
         <custom.InputField
           label='password'
@@ -103,7 +103,7 @@ export const SignIn: React.FC = () => {
               ...theme.fonts.Mulish_400Regular,
             }}
           >
-            Remember me
+            تذكرني
           </span>
         </div>
         {/* Forgot password */}
@@ -111,33 +111,22 @@ export const SignIn: React.FC = () => {
           onClick={() => navigate('/ForgotPassword')}
           style={{
             color: theme.colors.mainColor,
-            fontSize: 16,
+            fontSize: 22,
             backgroundColor: 'transparent',
             ...theme.fonts.Mulish_400Regular,
           }}
         >
-          Forgot password?
+          نسيت كلمة السر
         </button>
       </div>
       <components.Button
-        title='Sign in'
-        style={{marginBottom: 20}}
+        title='سجل الان'
+        style={{marginBottom: 20, fontSize: 22}}
         onClick={() => navigate('/TabNavigator')}
       />
       <div
         style={{display: 'flex', alignItems: 'center', flexDirection: 'row'}}
       >
-        <span
-          style={{
-            marginRight: 4,
-            ...theme.fonts.Mulish_400Regular,
-            fontSize: 16,
-            lineHeight: 1.3,
-            color: theme.colors.textColor,
-          }}
-        >
-          Don’t have an account?
-        </span>
         <span
           style={{
             ...theme.fonts.Mulish_400Regular,
@@ -148,7 +137,18 @@ export const SignIn: React.FC = () => {
           }}
           onClick={() => navigate('/SignUp')}
         >
-          Sign up.
+          سجل الان.
+        </span>
+        <span
+          style={{
+            marginRight: 4,
+            ...theme.fonts.Mulish_400Regular,
+            fontSize: 16,
+            lineHeight: 1.3,
+            color: theme.colors.textColor,
+          }}
+        >
+          ليس لديك حساب
         </span>
       </div>
     </div>
