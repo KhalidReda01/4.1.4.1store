@@ -5,6 +5,7 @@ import {custom} from '../custom';
 import {svg} from '../assets/svg';
 import {theme} from '../constants';
 import {components} from '../components';
+import yourImage from '../img/home.jpg';
 
 export const SignIn: React.FC = () => {
   const navigate = useNavigate();
@@ -16,6 +17,15 @@ export const SignIn: React.FC = () => {
   const renderContent = (): JSX.Element => (
     <div style={{padding: '50px 20px 20px 20px'}}>
       <components.Line style={{marginBottom: 14}} />
+      <div
+        style={{display: 'flex', justifyContent: 'center', marginBottom: 20}}
+      >
+        <img
+          src={yourImage}
+          alt='Login '
+          style={{width: '200px', height: '200px', borderRadius: '100%'}}
+        />
+      </div>
       <h1
         style={{
           margin: 0,
@@ -28,8 +38,22 @@ export const SignIn: React.FC = () => {
           marginBottom: 14,
         }}
       >
-        هنا عاصمة الرياضة
+        1.4.1.4
       </h1>
+      <h2
+        style={{
+          margin: 0,
+          textAlign: 'center',
+          ...theme.fonts.Mulish_700Bold,
+          color: theme.colors.mainColor,
+          fontSize: 32,
+          lineHeight: 1.2,
+          textTransform: 'capitalize',
+          marginBottom: 14,
+        }}
+      >
+        هنا عاصمة الرياضة
+      </h2>
       <p
         style={{
           margin: 0,
