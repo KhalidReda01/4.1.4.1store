@@ -1,0 +1,65 @@
+{
+  "git.enabled": false,
+  "intelephense.phpdoc.classTemplate": {
+    "summary": "$1",
+    "tags": ["@package ${1:$SYMBOL_NAMESPACE}"]
+  },
+  "[php]": {
+    // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    // k&r formatting
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
+  },
+  // "intelephense.format.braces": "k&r",
+  // "intelephense.format.enable": true,
+  // "editor.guides.bracketPairs": true,
+  // "workbench.layoutControl.enabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "typescript.tsdk": "node_modules/typescript/lib",
+  // "workbench.colorTheme": "Material Theme High Contrast",
+  // "workbench.iconTheme": "material-icon-theme",
+  // "editor.inlineSuggest.enabled": true,
+  // "editor.formatOnSave": true,
+  // "[typescriptreact]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[jsonc]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[json]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[tsx]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "editor.fontSize": 12,
+  "files.autoSave": "onFocusChange",
+  // prettier
+  "prettier.tabs": true,
+  "window.zoomLevel": 0.2,
+  "editor.foldingStrategy": "auto",
+  "betterFolding.enabled": true,
+  "betterFolding.keymap": {
+    "toggleFold": "ctrl+k ctrl+l",
+    "toggleFoldRecursively": "ctrl+k ctrl+shift+l"
+  },
+  "betterFolding.chainFoldingRanges": true
+  // "prettier.tabWidth": 2,
+  // "prettier.useTabs": false,
+  // "prettier.printWidth": 80,
+  // "prettier.semi": true,
+  // "prettier.singleQuote": true,
+  // "prettier.trailingComma": "all",
+  // "prettier.jsxSingleQuote": true,
+  // "prettier.arrowParens": "always",
+  // "prettier.bracketSpacing": false,
+  // "prettier.bracketSameLine": false,
+  // "prettier.singleAttributePerLine": true
+  // "prettier.bracketSameLine": false
+}
